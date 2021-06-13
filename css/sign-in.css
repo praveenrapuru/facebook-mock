@@ -1,0 +1,15 @@
+
+        #alertmsg1 {color: red;display: none;}
+        #alertmsg2 {color: red;display: none;}
+        .mainrow {margin-top: 200px;}
+        .border { border: 0px solid;padding: 10px;box-shadow: 3px 5px 10px 2px #b8b7b7; background-color: white; border-radius: 5px;    padding-left: 7px;padding-top: 40px; }
+        .createacount{background-color: lightgreen;
+                        margin-left: 150px;}
+        #mailid{margin-bottom: 20px;
+                    height: 75px;}
+        #password{margin-bottom: 20px;
+                    height: 75px;}
+       .btn-info{margin-top: 20px;
+             margin-bottom: 20px;
+             width: 460px;}
+        #link{margin-left: 155px;}

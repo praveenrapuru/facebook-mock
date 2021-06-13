@@ -1,24 +1,54 @@
 <!DOCTYPE html>
+<!-- saved from url=(0044)file:///home/praveen/Desktop/praveen/fb.html -->
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Facebook Sign-In</title>
-	<!-- Load Jqwery -->
-	<script type="text/javascript" src="./../javascript/lib/jquery.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>face book </title>
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  		<script src="./fb_files/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-	<!-- Load Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="./../css/lib/bootstrap.min.css">
-	<script type="text/javascript" src="./../javascript/lib/bootstrap.min.js"></script>
+  		<link rel="stylesheet" href="./../css/sign-in.css">
 
-	<!-- Custom JS -->
-	<script type="text/javascript" src="./../javascript/sign-in.js"></script>
+  		<script type="text/javascript">
+  			
+		$(document).ready(function(){});
+
+		   function login(){
+		   	
+		   	var x =$("#mailid").val()		   
+		   	 if  (x ==""){
+		   	 	$("#mailid").css("border-color", "red");
+		   	 	$("#alertmsg1").show()		   	 	
+		   	 }
+		   	 else {
+		   	 	$("#alertmsg1").hide()
+		   	 	$("#mailid").css("border-color", "lightgray");	
+		   	 }		   	 
+		   	 var x =$("#password").val()
+		   	 if  (x ==""){
+		   	 	$("#alertmsg2").show()
+		   	 }
+		   }
+  		</script>
 </head>
-<body>
-
-	<div>
-
-		<input type="submit" name="" class="btn btn-primary">
-	</div>
-
-</body>
+<body class="container">
+		<div class="row mainrow">
+			<div class="col-7 ">		
+				<h1><b>FaceBook</b></h1>
+				<h3>Facebookలో వ్యక్తులు బంధాలను కలుపుకోవచ్చు మరియు సుఖదుఃఖాలను మిత్రులతో పంచుకోవచ్చు.</h3>	
+			</div>
+			<div class="col-5 border">		
+				 <input type="email" class="form-control" id="mailid" placeholder="Enter email or phone number ">
+		    	 <p id="alertmsg1">The email address or mobile number you entered isn't connected to an account. Find your account and log in.</p>
+		    	 <input type="password" class="form-control" placeholder="Enter password" id="password">
+		    	 <p id="alertmsg2">Please enter valid passward. </p>
+    		   	 <a href="file:///home/praveen/Desktop/praveen/fb.html#" role="button " class="btn btn-info" onclick="login()"><b>Log In</b></a><br>
+				<a href="file:///home/praveen/Desktop/praveen/fb.html#" id="link">forgotten password?</a><br>
+				<a href="file:///home/praveen/Desktop/praveen/fb.html#" type="button" class="btn btn-primary createacount" data-toggle="modal" data-target="#popup">Create New Acount</a>
+			</div>
+      </div>
+    </body>
 </html>
