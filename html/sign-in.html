@@ -6,31 +6,37 @@
 	<title>face book </title>
   		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  		<script src="./fb_files/jquery.min.js"></script>
+  		<script src="./../javascript/lib/jquery.min.js"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   		<link rel="stylesheet" href="./../css/sign-in.css">
 
   		<script type="text/javascript">
-  			
-		$(document).ready(function(){});
 
 		   function login(){
 		   	
-		   	var x =$("#mailid").val()		   
-		   	 if  (x ==""){
-		   	 	$("#mailid").css("border-color", "red");
-		   	 	$("#alertmsg1").show()		   	 	
-		   	 }
-		   	 else {
-		   	 	$("#alertmsg1").hide()
-		   	 	$("#mailid").css("border-color", "lightgray");	
-		   	 }		   	 
-		   	 var x =$("#password").val()
-		   	 if  (x ==""){
-		   	 	$("#alertmsg2").show()
-		   	 }
+		   	var x = $("#mailid").val()	
+
+			 if  (x ==""){
+			 	$("#mailid").css("border-color", "red");
+			 	$("#alertmsg1").show()		   	 	
+			 }
+			 else {
+			 	$("#alertmsg1").hide()
+			 	$("#mailid").css("border-color", "lightgray");	
+			 }	
+
+			 var x =$("#password").val()
+			 
+			 if  (x ==""){
+			 	$("#alertmsg2").show()
+			 } else {
+			 	$("#alertmsg2").hide()
+			 	// $("#mailid").css("border-color", "lightgray");	
+			 }	
+
+			 return false
 		   }
   		</script>
 </head>
@@ -45,8 +51,8 @@
 		    	 <p id="alertmsg1">The email address or mobile number you entered isn't connected to an account. Find your account and log in.</p>
 		    	 <input type="password" class="form-control" placeholder="Enter password" id="password">
 		    	 <p id="alertmsg2">Please enter valid passward. </p>
-    		   	 <a href="file:///home/praveen/Desktop/praveen/fb.html#" role="button " class="btn btn-info" onclick="login()"><b>Log In</b></a><br>
-				<a href="file:///home/praveen/Desktop/praveen/fb.html#" id="link">forgotten password?</a><br>
+    		   	 <a href="#" role="button " class="btn btn-info" onclick="login()"><b>Log In</b></a><br>
+				<a href="#" id="link">forgotten password?</a><br>
 				<a href="file:///home/praveen/Desktop/praveen/fb.html#" type="button" class="btn btn-primary createacount" data-toggle="modal" data-target="#popup">Create New Acount</a>
 			</div>
       </div>
