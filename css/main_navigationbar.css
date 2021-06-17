@@ -7,13 +7,42 @@ body{
     background-color: #e1e1e1;
 }
 .Navigation_bar{
-    padding: 14px;
+    padding-top: 3px;
     background-color: white;
   
 }
 .Navigation_bar_lift{
     float: left;
-    text-align: center;
+   padding-left: 10px;
+}
+#F_icon{
+    font-size: 48px;
+    color: #0d6be1d9;
+}
+#search_icon{
+    font-size: 24px;
+    position: absolute;
+    top: 17px;  
+    width: 46px;
+    height: 22px;
+    color: #00000047;
+
+}
+#search_bar{
+   padding-left: 13px;
+    padding-top: 8px;
+}
+
+.search_place{
+    width: 225px;
+    height: 37px;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+    border: none;
+    color: #00000047;
+    padding-left: 34px;
+    padding-bottom: 6px;
+    
 }
 .Navigation_bar_right{
     float: right;
@@ -21,9 +50,7 @@ body{
 .navi_left_icon {
     size: 20px;
 }
-.search_bar{
-     width: 140px;
-}
+
 .face{
     background-color: gray;
 }
