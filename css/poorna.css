@@ -2,3 +2,19 @@
 	border: 1px solid rgb(222, 232, 246);
 	border-radius: 10px;
 }
+.line{
+	border: 0.5px solid rgb(206, 208, 212) ;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.text_align{
+	margin-top: 85px;
+	color: white;
+}
+.text_bar{
+	border: 1px solid rgb(237, 239, 242);
+	border-radius: 50px;
+	width: 88%;
+	height: 90%;
+	background-color: rgb(240, 242, 245);
+}
