@@ -35,26 +35,103 @@
 			 	$("#alertmsg2").hide()
 			 	// $("#mailid").css("border-color", "lightgray");	
 			 }	
+			 	function createacount(){
+		   		$(".popup").show()
+		   	}
 
 			 return false
 		   }
   		</script>
 </head>
-<body class="container">
+	<body class="container">
 		<div class="row mainrow">
-			<div class="col-7 ">		
-				<h1><b>FaceBook</b></h1>
-				<h3>Facebookలో వ్యక్తులు బంధాలను కలుపుకోవచ్చు మరియు సుఖదుఃఖాలను మిత్రులతో పంచుకోవచ్చు.</h3>	
-			</div>
-			<div class="col-5 border">		
-				 <input type="email" class="form-control" id="mailid" placeholder="Enter email or phone number ">
-		    	 <p id="alertmsg1">The email address or mobile number you entered isn't connected to an account. Find your account and log in.</p>
-		    	 <input type="password" class="form-control" placeholder="Enter password" id="password">
-		    	 <p id="alertmsg2">Please enter valid passward. </p>
-    		   	 <a href="#" role="button " class="btn btn-info" onclick="login()"><b>Log In</b></a><br>
-				<a href="#" id="link">forgotten password?</a><br>
-				<a href="file:///home/praveen/Desktop/praveen/fb.html#" type="button" class="btn btn-primary createacount" data-toggle="modal" data-target="#popup">Create New Acount</a>
-			</div>
-      </div>
-    </body>
+
+				<div class="col-7 ">		
+					<h1 id="font-style"><b>face book</b></h1>
+					<h3>Facebook helps you connect and share with the people in your life.</h3>	
+				</div>
+				<div class="col-5 border">		
+					 <input type="email" class="form-control" id="mailid" placeholder="Enter email or phone number ">
+			    	 <p id="alertmsg1">The email address or mobile number you entered isn't connected to an account. Find your account and log in.</p>
+			    	 <input type="password" class="form-control" placeholder="Enter password" id="password">
+			    	 <p id="alertmsg2">Please enter valid passward. </p>
+	    		   	 <a href="#" role="button " class="btn btn-info" onclick="login()"><b>Log In</b></a><br>
+					 <a href="#" id="link">forgotten password?</a><br>
+					 <div class="row">
+						<div class="col-1"></div>
+						<div class="col-10 border2"></div>
+						<div class="col-1"></div>
+					 </div>
+					 <a href="file:///home/praveen/Desktop/praveen/fb.html#" type="button" class="btn btn-primary createacount" data-toggle="modal" data-target="#popup">Create New Acount</a>
+				</div>
+				<p id="createpage"><b>Create a Page</b> for a celebrity, band or business.</p>
+     	</div>
+     		
+    	<div class="row">
+    	<div class="col-12"></div>
+           			<div class="pagefooter">
+     					<a href="#" class="lan">తెలుగు</a>
+     					<a href="#" class="lan">اردو</a>
+     					<a href="#" class="lan">हिन्दी</a>
+     					<a href="#" class="lan">தமிழ்</a>
+     					<a href="#" class="lan">ଓଡ଼ିଆ</a>
+     					<a href="#" class="lan">ಕನ್ನಡ</a>
+     					<a href="#" class="lan">മലയാളം</a>
+     					<a href="#" class="lan">English (UK)</a>
+     					<a href="#" class="lan">Español</a>
+     					<a href="#" class="lan">Português (Brasil)</a>
+     					<a href="#" class="lan">Français (France)</a>
+     					<button class="lan">+</button>
+        	 	
+					   <div class="col-12 border3"></div>
+				
+					    <a href="#" class="lan">Sign Up</a>
+						<a href="#" class="lan">Log In</a>
+						<a href="#" class="lan">Messager</a>
+						<a href="#" class="lan">Facebook Lite</a>
+						<a href="#" class="lan">Watch</a>
+						<a href="#" class="lan">people</a>
+						<a href="#" class="lan">pages</a>
+						<a href="#" class="lan">pagecategories</a>
+						<a href="#" class="lan">place</a>
+						<a href="#" class="lan">games</a>
+						<a href="#" class="lan">Location</a>
+						<a href="#" class="lan">marketplace</a>
+						<a href="#" class="lan">Facebook Pay</a>
+						<a href="#" class="lan">groups</a>
+						<a href="#" class="lan">jobs</a>
+						<a href="#" class="lan">Oculus</a>
+						<a href="#" class="lan">Portal</a>
+						<a href="#" class="lan">Instagram</a>
+						<a href="#" class="lan">Local</a>
+						<a href="#" class="lan">Fundraisers</a>
+						<a href="#" class="lan">Services</a>
+						<a href="#" class="lan">Voting Information Centre</a>
+						<a href="#" class="lan">About</a>
+						<a href="#" class="lan">Create ad</a>
+						<a href="#" class="lan">Create Page</a>
+						<a href="#" class="lan">Developers</a>
+						<a href="#" class="lan">Careers</a>
+						<a href="#" class="lan">Privacy</a>
+						<a href="#" class="lan">Cookies</a>
+						<a href="#" class="lan">Ad Choices</a>
+						<a href="#" class="lan">Terms</a>
+						<a href="#" class="lan">Help</a>
+			
+						<span>Facebook © 2021</span>
+					</div>
+		<div class="modal" id="popup">
+    		<div class="modal-dialog ">
+      			<div class="modal-content">
+      		   		<div class="modal-header">
+        			  <h2 class="modal-title"><b>Sign Up</b></h2>
+        			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+      		  		</div>
+       			</div>
+   			</div>
+		</div>
+		</div>
+		</div>
+	</body>
 </html>
+
