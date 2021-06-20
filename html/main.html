@@ -12,13 +12,48 @@
 	<!-- Custom JS -->
 	<script type="text/javascript" src="./../javascript/sign-in.js"></script>
 
-	<!--css link for chaithanya -->
+		<!-- Custom JS -->
+		<script type="text/javascript" src="./../javascript/sign-in.js"></script>
+		<!--css link for chaithanya -->
+		<link rel="stylesheet" type="text/css" href="./../css/chaithanya.css">
+		<!--css link for naveen -->
+		<link rel="stylesheet" type="text/css" href="./../css/naveen.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+		<!--css link for chaithanya -->
 	<link rel="stylesheet" type="text/css" href="./../css/main_navigationbar.css">
+	<!--js link for chaithanya-->
+	<link rel="stylesheet" type="text/css" href="./../javascript/main_navigationbar.js">
 		
 	<!-- css link for Poorna -->
 	<link rel="stylesheet" type="text/css" href="./../css/poorna.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+	$("#hide").hide();
+    $("#less").hide();
+
+
+
+    $("#more").click(function(){
+        $("#more").hide();
+        $("#hide").show();
+        $("#less").show();
+    });
+
+    $("#less").click(function(){
+        $("#less").hide();
+        $("#hide").hide();
+        $("#more").show();
+    });
+	});
+		</script>
+	
 		</head>
 	<body>
 		<!-- Navigation bar - Chaitnya -->
@@ -26,7 +61,7 @@
 			<div class="col-3 ">
 				<div class="row Navigation_bar_lift">
 					<div class="col-2  ">
-					 	<i class=" material-icons"id="F_icon">facebook</i>
+					 	<button id="b_type1"><i class=" material-icons"id="F_icon"></a>facebook</i></button>
 					</div>
 					<div class="col-10 ">
 						<div class="row"id="search_bar">
@@ -36,23 +71,24 @@
 					</div>	
 				</div>
 			</div>	
-			<div class="col-6">
+			<div class="col-5">
 					<ul class="list-group list-group-horizontal">
-						<div class="col-1"></div>
-					    <li class="list-group-item col-2 top_center"><i class="material-icons"id="home">home</i></li>
-					    <li class="list-group-item col-2 top_center"><i class="material-icons"id="video">ondemand_video</i></li>
-					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="store">store</i></li>
-					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="group">groups</i></li>
-					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="games">games</i></li>
+						
+					   <button class="top_center"><li class=" col-2 "><i class="material-icons"id="home">home</i></li></button> 
+					    <button class="top_center"><li class="col-2"><i class="material-icons"id="video">ondemand_video</i></li></button>
+					   <button class="top_center"> <li class=" col-2 "><i class="material-icons "id="store">store</i></li></button>
+					    <button class="top_center"><li class="col-2 "><i class="material-icons "id="group">groups</i></li></button>
+					   <button class="top_center"> <li class="col-2 "><i class="material-icons "id="games">games</i></li></button>
+
 				  </ul>
 	  		</div>
-			<div class="col-3">
+			<div class="col-4">
 				<div class="row right_icons">
 					<div class="col-5">
-						<div class="row user_name">
+						<button class="b_type3"><div class="row">
 							<img class="col-3 user" src="./../poorna.img/praveen.jpeg">
 							<p class="col-9 name">praveen</p>	
-						</div>
+						</div></button>
 					</div>
 					<div class="col-7">
 						<div class="row">
@@ -77,175 +113,177 @@
 				</div>
 			</div>
 		</div>
-	  
 
    <!-- body -->
    <div>
-   <div class="row">
+   <div class="row left">
 	<!-- Left side bar - Naveen-->
 	<div class="col-sm-4">
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/PrjLkDYpYbH.4png">
-        <span>name</span>
-		</div>
+        <span style="padding-top: 5px;">name</span>
+		</a><br>
       
-       <div>
+        <a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.1png">
         <span>COVID-19 Information Centre</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/PrjLkDYpYbH.4png">
         <span>Groups</span>
-		</div>
+		</a><br>
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/D2y-jJ2C_hO.5png">
         <span>Maketplase</span>
-		</div>
+		</a><br>
 
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/duk32h44Y31.6png">
         <span>watch</span>
-		</div>
+		</a><br>
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/8wTx0Eu2vRq.7png">
         <span>Events</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/VPndBxotRgH.8png">
         <span>Memories</span>
-		</div>
+		</a><br>
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/lVijPkTeN-r.9png">
         <span>Saved</span>
-		</div>
+		</a><br>
 
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/PrjLkDYpYbH.4png">
         <span>Pages</span>
-		</div>
+		</a><br>
+       <div id="more">
+     <i class="material-icons" onclick="show()" style="margin-left: 40px;background-color: lightgray;">&#xe313;</i>
 
+       <span>see more</span>
+       </div>
 
-
-		  <div>
+        <div id="hide">
+		 <a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+        <a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
-
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
-		</div>
+		</a><br>
 
 
-		<div>
+		<a href="www.google.com" class="image">
 		<img  class="image" src="./../images/leftside/facebook.png">
        <span>Friends</span>
+		</a>
 		</div>
+		<div id="less">
+		<i class="material-icons" onclick="hide()" style="margin-left: 40px;background-color: lightgray;">&#xe316;</i>
+
+       <span>see less</span>
+       </div>
 	</div>
 	<!-- Post feed - Poorna-->
 
@@ -295,8 +333,8 @@
 			</div>		
 	    </div>
 	    <div class="row">
-	    	<div class="col-sm-2"></div>
-		    <div class=" col-sm-8" style="box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(225,227,229); background-color:rgb(255, 255, 255);">
+	    	<div class="col-sm-1"></div>
+		    <div class=" col-sm-10" style="box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(225,227,229); background-color:rgb(255, 255, 255);">
 		    	<img src="./../poorna.img/praveen.jpeg" class="rounded-circle" style="width: 40px;
 		    	height: 40px;">
 		    	<input type="text" placeholder="What's on your mind, Praveen?" class="text_bar">
@@ -304,12 +342,12 @@
 		    		<span><i class="material-icons">video_call</i>Live Video</span>
 		    	</div>
 		    </div>
-		   	<div class="col-sm-2"></div>
+		   	<div class="col-sm-1"></div>
 		   	
 		</div>
 		<div class="row">
-			<div class="col-sm-2"></div>
-			<div class="card col-sm-8" style="margin-top: 50px;">
+			<div class="col-sm-1"></div>
+			<div class="card col-sm-10" style="margin-top: 50px;">
 				<span><img src="./../poorna.img/cricket players.jpeg" class="rounded-circle" style="width: 40px; height: 40px;">Cricket</span>
 				<div class="line"></div>
 				<img src="./../poorna.img/cricket players.jpeg">

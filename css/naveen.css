@@ -1,0 +1,12 @@
+.image{
+	text-decoration-line: none;
+	color: black;
+	margin-left: 20px;
+	margin-top: 15px;
+	size: 40px;
+}
+.left{
+
+  overflow-y: scroll; 
+
+}
