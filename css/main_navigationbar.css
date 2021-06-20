@@ -50,30 +50,75 @@ body{
 .navi_left_icon {
     size: 20px;
 }
-
-.face{
-    background-color: gray;
-}
-.home{
-    size: 10px;
-}
-.top_icon_center{
+.top_center{
     border: none;
     text-align: center;
+    margin-left: 5px;
 }
-.top_icon_center:hover{
-    background-color: #21252914;
+.top_center:hover{
+    background-color:#2125293b;
     border-radius: 10px;
 }
-.top_L_F{
-    background-color: #21252914;
+#home{
+    font-size: 30px;
+    color: #708090c2;
 }
-.top_L{
+#video{
+    font-size: 27px;
+    color: #708090c2;
+}
+#store{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+#group{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+#games{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+.right_icons{
+    padding-top: 10px;
+
+}
+.user_name{
+    
+    border-radius:24px;
+    height: 30px;
+}
+.user_name:hover{
+    background-color: #2125293b;
+
+}
+
+.user{
+    border-radius: 50%;
+    height: 28px;
+    padding-left: 0px;
+    padding-right: 9px;
+}
+.name{
+    text-align: left;
+    padding-left: 0px;
+}
+.right_most_icons{
+    
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: center;
-    background-color:#21252914 ;
-    border-radius: 35px;
-    padding: 8px;
 }
-i{
-    font-size: 10px;
+#add{
+    font-size: 27px;
+    border-radius: 50%;
+    background-color: #2125293b;
+    padding: 5px;
 }
+
+
+
