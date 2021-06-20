@@ -1,0 +1,124 @@
+body{
+   
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+    background-color: #e1e1e1;
+}
+.Navigation_bar{
+    padding-top: 3px;
+    background-color: white;
+  
+}
+.Navigation_bar_lift{
+    float: left;
+   padding-left: 10px;
+}
+#F_icon{
+    font-size: 48px;
+    color: #0d6be1d9;
+}
+#search_icon{
+    font-size: 24px;
+    position: absolute;
+    top: 17px;  
+    width: 46px;
+    height: 22px;
+    color: #00000047;
+
+}
+#search_bar{
+   padding-left: 13px;
+    padding-top: 8px;
+}
+
+.search_place{
+    width: 225px;
+    height: 37px;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+    border: none;
+    color: #00000047;
+    padding-left: 34px;
+    padding-bottom: 6px;
+    
+}
+.Navigation_bar_right{
+    float: right;
+}
+.navi_left_icon {
+    size: 20px;
+}
+.top_center{
+    border: none;
+    text-align: center;
+    margin-left: 5px;
+}
+.top_center:hover{
+    background-color:#2125293b;
+    border-radius: 10px;
+}
+#home{
+    font-size: 30px;
+    color: #708090c2;
+}
+#video{
+    font-size: 27px;
+    color: #708090c2;
+}
+#store{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+#group{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+#games{
+    font-size: 27px;
+    color: #708090c2;
+
+}
+.right_icons{
+    padding-top: 10px;
+
+}
+.user_name{
+    
+    border-radius:24px;
+    height: 30px;
+}
+.user_name:hover{
+    background-color: #2125293b;
+
+}
+
+.user{
+    border-radius: 50%;
+    height: 28px;
+    padding-left: 0px;
+    padding-right: 9px;
+}
+.name{
+    text-align: left;
+    padding-left: 0px;
+}
+.right_most_icons{
+    
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+#add{
+    font-size: 27px;
+    border-radius: 50%;
+    background-color: #2125293b;
+    padding: 5px;
+}
+
+
+
