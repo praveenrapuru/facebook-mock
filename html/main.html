@@ -9,6 +9,8 @@
 		<!-- Load Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="./../css/lib/bootstrap.min.css">
 		<script type="text/javascript" src="./../javascript/lib/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script type="text/javascript" src="./../javascript/sign-in.js"></script>
 
 		<!-- Custom JS -->
 		<script type="text/javascript" src="./../javascript/sign-in.js"></script>
@@ -21,13 +23,12 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-
-
-
-
-
-
-
+		<!--css link for chaithanya -->
+	<link rel="stylesheet" type="text/css" href="./../css/main_navigationbar.css">
+		
+	<!-- css link for Poorna -->
+	<link rel="stylesheet" type="text/css" href="./../css/poorna.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 		<script type="text/javascript">
@@ -50,56 +51,57 @@
     });
 	});
 		</script>
+	
 		</head>
 	<body>
 		<!-- Navigation bar - Chaitnya -->
 		<div class="row  Navigation_bar  ">
-			<div class="col-3 Navigation_bar_lift">
-				<div class="row">
-					<div class="col-2 navi_left_icon ">
-					 	<i class="material-icons top_L_F  ">facebook</i>
+			<div class="col-3 ">
+				<div class="row Navigation_bar_lift">
+					<div class="col-2  ">
+					 	<i class=" material-icons"id="F_icon">facebook</i>
 					</div>
-					<div class="col-2 navi_left_icon ">
-						<i class="material-icons top_L_F  ">search</i>
+					<div class="col-10 ">
+						<div class="row"id="search_bar">
+						   <i class="material-icons"id="search_icon">search</i>
+						   <input type="search" class="search_place" placeholder="search Facebook" name="">
+					    </div>
 					</div>	
-					<div class="col-8">
-						<input type="search" class="search_bar" name="search Facebook"></i>
-					</div>
 				</div>
 			</div>	
-			<div class="col-5">
+			<div class="col-6">
 					<ul class="list-group list-group-horizontal">
 						<div class="col-1"></div>
-					    <li class="list-group-item col-2 top_icon_center"><i class="material-icons">home</i></li>
-					    <li class="list-group-item col-2 top_icon_center"><i class="material-icons">ondemand_video</i></li>
-					    <li class="list-group-item col-2 top_icon_center"><i class="material-icons">store</i></li>
-					    <li class="list-group-item col-2 top_icon_center"><i class="material-icons">groups</i></li>
-					    <li class="list-group-item col-2 top_icon_center"><i class="material-icons">games</i></li>
+					    <li class="list-group-item col-2 top_center"><i class="material-icons"id="home">home</i></li>
+					    <li class="list-group-item col-2 top_center"><i class="material-icons"id="video">ondemand_video</i></li>
+					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="store">store</i></li>
+					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="group">groups</i></li>
+					    <li class="list-group-item col-2 top_center"><i class="material-icons "id="games">games</i></li>
 				  </ul>
 	  		</div>
-			<div class="col-4">
-				<div class="row">
-					<div class="col-4">
-						<div class="row">
-							<i class="col-2 material-icons">person_outlin</i>
-							<p class="col-10">praveen</p>	
+			<div class="col-3">
+				<div class="row right_icons">
+					<div class="col-5">
+						<div class="row user_name">
+							<img class="col-3 user" src="./../poorna.img/praveen.jpeg">
+							<p class="col-9 name">praveen</p>	
 						</div>
 					</div>
-					<div class="col-8">
+					<div class="col-7">
 						<div class="row">
 							<div class="col-6">
 								<div class="row">
-									<div class="col-4 top_L"><i class="material-icons">add</i></div>
-									<div class="col-2"></div>
-						            <div class="col-4 top_L"><i class="material-icons">messenger</i></div>
+									<div class="col-6 right_most_icons"><i class="material-icons" id="add">add</i></div>
+								
+						            <div class="col-6 right_most_icons"><i class="material-icons"id="add">messenger</i></div>
 								</div>
 								
 							</div>
 							<div class="col-6">
 								<div class="row">
-									<div class="col-4 top_L"><i class="material-icons">notifications</i></div>
-									<div class="col-2"></div>
-						            <div class="col-4 top_L"><i class="material-icons">arrow_drop_down</i></div>
+									<div class="col-6 right_most_icons"><i class="material-icons"id="add">notifications</i></div>
+								
+						            <div class="col-6 right_most_icons"><i class="material-icons"id="add">arrow_drop_down</i></div>
 								</div>
 						        
 						    </div>
@@ -108,17 +110,10 @@
 				</div>
 			</div>
 		</div>
-	   <!-- body -->
-	   
-
-
-		
-
-		
 
    <!-- body -->
    <div>
-   <div class="row">
+   <div class="row left">
 	<!-- Left side bar - Naveen-->
 	<div class="col-sm-4">
 		<a href="www.google.com" class="image">
@@ -288,14 +283,57 @@
        </div>
 	</div>
 	<!-- Post feed - Poorna-->
-	<div class="col-sm-6">
-		
-	</div>
+
+	
+	<div class="col-sm-5">
+		<div class="row">
+			<div class="col-sm-2">
+				<button class="top_buttons">Home</button>
+			</div>
+			<div class="col-sm-2">
+				<button class="top_buttons">Favorites</button>
+			</div>
+			<div class="col-sm-2">
+				<button class="top_buttons">Recent</button>
+			</div>				
+			<div class="col-sm-5">
+			</div>
+			<div class="col-sm-1">
+				<button class="top_buttons"><i class="material-icons">&#xe8ef;</i></button>	
+			</div>
+		</div>
+		<div class="row" style="border-style: solid; border-width: 0.5px; margin-bottom: 20px; margin-top: 10px;">
+			
+		</div>
+
+		<div class="row">
+			<div class="card col-sm-2">			
+				<img  style="width: 100%;" src="./../poorna.img/praveen.jpeg">
+				<a class="rounded-circle" style="width:50px; text-align:center;"><i class="material-icons">&#xe145;</i></a>
+				<p class="card-text" style="text-align: center;">Create Story</p>
+			</div>	
+			<div class="card col-sm-2" style="background-color: green; ">
+				<img src="./../poorna.img/ms dhoni.jpeg"class="rounded-circle" style="width: 30px; height: 30px;">
+				<p class="card-text-bottom">MS Dhoni</p>
+			</div>
+			<div class="card col-sm-2" style="background-color: blue;">
+				<img src="" class="rounded-circle">
+			</div>
+			<div class="card col-sm-2" style="background-color: skyblue;">
+				<img src="" class="rounded-circle">
+			</div>
+			<div class="card col-sm-2" style="background-color: skyblue;">
+				<img src="" class="rounded-circle">
+			</div>
+			<div class="card col-sm-2" style="background-color: skyblue;">
+				<img src="" class="rounded-circle">
+			</div>		
+	    </div>
+    </div>
 	<!-- right side - chaithanya-->
 	<div class="col-sm-3">
-		
-
 	</div>
+
 
 	</body>
 </html>
