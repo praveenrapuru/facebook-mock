@@ -10,7 +10,13 @@ body{
 .Navigation_bar{
     padding-top: 3px;
     background-color: white;
-  
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16);
+    position: fixed;
+    top: 0px;
+   
+}
+.main{
+    margin-top: 65px;
 }
 .Navigation_bar_lift{
     float: left;
@@ -39,6 +45,9 @@ body{
    padding-left: 13px;
     padding-top: 8px;
     margin: 0px;
+}
+#search_bar:active{
+    outline: none;
 }
 
 .search_place{
@@ -76,8 +85,11 @@ li{
 }
 .top_center:hover{
     background-color:#2125293b;
-   
-
+}
+.top_center:active{
+    background-color: white;
+    border-bottom: 2px;
+    border-color: blue;
 }
 #home{
     font-size: 32px;
@@ -139,6 +151,9 @@ li{
     height: 35px;
     text-align: center;
     font-size: 10px;
+}
+.b_type4:hover{
+    background-color:#2125293b;
 }
 #R_icon{
     font-size: 20px;
