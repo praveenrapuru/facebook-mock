@@ -5,15 +5,23 @@ body{
     padding: 0;
     unicode-bidi: embed;
     background-color: #e1e1e1;
+    width: 100%;
 }
 .Navigation_bar{
     padding-top: 3px;
     background-color: white;
-  
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16);
+    position: fixed;
+    top: 0px;
+   
+}
+.main{
+    margin-top: 65px;
 }
 .Navigation_bar_lift{
     float: left;
    padding-left: 10px;
+   margin: 0px;
 }
 #b_type1{
     border: oldlace;
@@ -22,6 +30,7 @@ body{
 #F_icon{
     font-size: 48px;
     color: #0d6be1d9;
+    margin-left: 5px;
 }
 #search_icon{
     font-size: 24px;
@@ -35,6 +44,10 @@ body{
 #search_bar{
    padding-left: 13px;
     padding-top: 8px;
+    margin: 0px;
+}
+#search_bar:active{
+    outline: none;
 }
 
 .search_place{
@@ -55,6 +68,7 @@ body{
     size: 20px;
 }
 
+
 li{
     list-style: none;
 }
@@ -62,8 +76,8 @@ li{
     border: none;
     text-align: center;
     margin-left: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
     border-radius: 10px;
     background-color: white;
     padding-top: 8px;
@@ -71,34 +85,39 @@ li{
 }
 .top_center:hover{
     background-color:#2125293b;
-   
-
+}
+.top_center:active{
+    background-color: white;
+    border-bottom: 2px;
+    border-color: blue;
 }
 #home{
-    font-size: 30px;
+    font-size: 32px;
     color: #708090c2;
 }
 #video{
-    font-size: 27px;
+    font-size: 28px;
     color: #708090c2;
 }
 #store{
-    font-size: 27px;
+    font-size: 28px;
     color: #708090c2;
 
 }
 #group{
-    font-size: 27px;
+    font-size: 28px;
     color: #708090c2;
 
 }
 #games{
-    font-size: 27px;
+    font-size: 28px;
     color: #708090c2;
 
 }
 .right_icons{
     padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
 
 }
 
@@ -124,18 +143,20 @@ li{
     text-align: left;
     padding-left: 0px;
 }
-.right_most_icons{
-    
-    border-radius: 50%;
-    padding-left: 0px;
-    padding-right: 0px;
+.b_type4{
+   
+    border-radius: 20px;
+    border-style: none;
+    width: 35px;
+    height: 35px;
     text-align: center;
+    font-size: 10px;
 }
-#add{
-    font-size: 27px;
-    border-radius: 50%;
-    background-color: #2125293b;
-    padding: 5px;
+.b_type4:hover{
+    background-color:#2125293b;
+}
+#R_icon{
+    font-size: 20px;
 }
 
 
