@@ -12,6 +12,7 @@ body{
     background-color: white;
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16);
     position: fixed;
+    width: 100%;
     top: 0px;
    
 }
@@ -31,6 +32,19 @@ body{
     font-size: 48px;
     color: #0d6be1d9;
     margin-left: 5px;
+}
+#arrow{
+    position: absolute;
+    left: 25px;
+    top: 13px;
+    width: 40px;
+    height: 30px;
+    font-size: 30px;
+    display: none;
+}
+#arrow:hover{
+    background-color: #00000047;
+    border-radius: 20px;
 }
 #search_icon{
     font-size: 24px;
@@ -100,6 +114,7 @@ li{
     color: #708090c2;
 }
 #store{
+
     font-size: 28px;
     color: #708090c2;
 
