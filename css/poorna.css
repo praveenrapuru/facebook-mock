@@ -1,10 +1,7 @@
-.top_buttons{
-	border: 1px solid rgb(222, 232, 246);
-	border-radius: 10px;
-}
+
 .line{
 	border: 0.5px solid rgb(206, 208, 212) ;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	margin-top: 10px;
 }
 .text_align{
@@ -15,6 +12,20 @@
 	border: 1px solid rgb(237, 239, 242);
 	border-radius: 50px;
 	width: 88%;
-	height: 90%;
+	height: 30%;
 	background-color: rgb(240, 242, 245);
+	margin-top: 10px;
+}
+.button{
+	border: none;
+	outline: none;
+	border-radius: 15px;
+}
+.button:hover {
+	background-color: #2125293b;
+
+}
+.story_style{
+	background-color: white;
+	border-radius: 10px;
 }
